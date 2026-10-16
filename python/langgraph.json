@@ -1,0 +1,10 @@
+{
+    "dependencies": [
+        "."
+    ],
+    "graphs": {
+        "scratch-agent": "./m1/agent_server.py:graph",
+        "butler-agent": "./m1/butler_agent_server.py:graph"
+    },
+    "env": ".env"
+}

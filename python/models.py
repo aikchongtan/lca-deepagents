@@ -42,6 +42,8 @@ model = init_chat_model("openai:gpt-4.1-mini", timeout=60, max_retries=2)
 #A more capable model for steps that need stronger reasoning
 strong_model = init_chat_model("openai:gpt-4.1", timeout=120, max_retries=2)
 
+
+
 # ═══ Alternative Models (comment out default above, uncomment one below) ═════
 # model = init_chat_model("anthropic:claude-sonnet-4-6")
 # model = init_chat_model("openai:gpt-4.1-mini")
@@ -76,6 +78,7 @@ strong_model = init_chat_model("openai:gpt-4.1", timeout=120, max_retries=2)
 # Free models available; sign up at openrouter.ai and get an API key
 # Requires OPENROUTER_API_KEY in .env
 #
+
 # from langchain_openai import ChatOpenAI
 # model = ChatOpenAI(model="nvidia/nemotron-3-ultra-550b-a55b:free", base_url="https://openrouter.ai/api/v1", api_key=os.environ["OPENROUTER_API_KEY"])
 
